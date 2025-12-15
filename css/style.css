@@ -149,7 +149,7 @@ border: 8px solid black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 text-decoration: underline;
 }
-.drycker{
+.maten{
     display: grid;
       grid-template-columns: repeat(3, 1fr); 
 justify-content: center;
@@ -157,7 +157,7 @@ gap: 15px;
 justify-items: center;
 padding: 10px;
 }
-.dryck{
+.mat{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -165,4 +165,11 @@ background-color:#a5b58d;
 width: 200px;
 height: 250px;
 border-radius: 10px;
+}
+.line{
+    background-color: #5e3b1a;
+    height: 5px;
+}
+footer{
+    background-color: #b58b63;
 }
