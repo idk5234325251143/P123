@@ -1,22 +1,38 @@
 body {
     background-color: #f6efe8;
+    margin: 0;
 }
 .container{
   display: flex;
   flex-direction: column; 
   gap: 2px;  
    align-items: center;
+   padding: 10px;
 }
 .header {
 background: #b58b63;
 height: 100px;
 width: 1100px;
-display: flex;
-flex-direction: column;
+display: grid;
+grid-template-columns: repeat(3, 1fr); 
 justify-content: center;
-align-items: center;
+align-items: ceter;
 border-radius: 10px;
 border: 5px solid black;
+}
+.logo1{
+    width: 240px;
+    position: relative;
+    top: -38px;
+    right: 50px;
+}
+.headertext{
+    display: flex;
+    justify-content: center;
+align-items: ceter;
+flex-direction: column;
+position: relative;
+top: -42px;
 }
 .rubrik{
 font-size: 60px;
@@ -79,6 +95,10 @@ gap: 350px;
 .bröd3{
     width: 250px;
 }
+.ttcontainer{
+    background-color:rgb(241, 227, 209);
+    width: 475px;
+}
 .textt{
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 18px;
@@ -109,6 +129,7 @@ word-spacing: 4px;
 justify-content: center;
 align-items: center;
 gap: 350px;  
+padding: 20px;
 }
 .box1{
 background-color: #a5b58d;
@@ -141,8 +162,27 @@ border: 8px solid black;
 .sidor2:hover{
     color: #b58b63;
 }
-
+.logo2{
+    width: 300px;
+    position: relative;
+    right: 800px;
+}
+footer{
+    background-color: #412104;
+    height: 200px;
+    display: flex;
+     justify-content: center;
+}
 /* MENY */
+.headertext2{
+       display: flex;
+    justify-content: center;
+align-items: ceter;
+flex-direction: column;
+position: relative;
+top: -42px;
+left: 80px;
+}
 .beskrivning{
     padding: 10px;
     font-size: 30px;
@@ -159,17 +199,24 @@ padding: 10px;
 }
 .mat{
 display: flex;
-justify-content: center;
+justify-content: centr;
+flex-direction: column;
 align-items: center;
 background-color:#a5b58d;
 width: 200px;
 height: 250px;
 border-radius: 10px;
+padding: 10px;
 }
 .line{
     background-color: #5e3b1a;
     height: 5px;
 }
-footer{
-    background-color: #b58b63;
+.mattext{
+    font-size: 20px;
+}
+
+.menybilder{
+    height: 100px;
+    
 }
