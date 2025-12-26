@@ -187,6 +187,7 @@ flex-direction: column;
 position: relative;
 top: -42px;
 left: 80px;
+height: 160px;
 }
 .beskrivning{
     padding: 10px;
@@ -299,4 +300,50 @@ gap: 25px;
     align-items: center;
     text-align: center;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 5px;
+}
+.namn{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 30px;
+}
+.pfp{
+    height: 150px;
+}
+.container6{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 100px;
+}
+.tider{
+font-size: large;
+background-color:rgb(241, 227, 209);
+padding: 30px;
+}
+.plats{
+    height: 600px;
+}
+
+.contact-form {
+  width: 300px;
+  padding: 50px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+button {
+  padding: 8px;
 }
