@@ -163,9 +163,10 @@ border: 8px solid black;
     color: #b58b63;
 }
 .logo2{
-    width: 300px;
+    width: 460px;
+    height: auto;
     position: relative;
-    right: 800px;
+    right: 500px;
 }
 footer{
     background-color: #412104;
