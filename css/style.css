@@ -296,7 +296,7 @@ gap: 25px;
     background-color: #a5b58d;
     border-radius: 10px;
     height: 300px;
-    width: 250px;
+    width: 240px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -319,7 +319,7 @@ font-size: 30px;
     justify-content: center;
     align-items: center;
     justify-items: center;
-    padding: 100px;
+    padding: 30px;
 }
 .tider{
 font-size: large;
@@ -327,7 +327,7 @@ background-color:rgb(241, 227, 209);
 padding: 30px;
 }
 .plats{
-    height: 600px;
+    height: 480px;
 }
 
 .contact-form {
